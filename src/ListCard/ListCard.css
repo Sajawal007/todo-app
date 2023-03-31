@@ -1,0 +1,24 @@
+.card-outer{
+    display:flex;
+    flex-direction: row;
+    padding: 1rem;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.card-outer > p{
+    padding-right: 1rem;
+}
+.card-outer > img {
+    padding-right: 1rem;
+}
+.controls > p{
+    margin: 0.2rem;
+}
+.controls:first-child{
+    color: blue;
+}
+.controls{
+    display:flex;
+    flex-direction: column;
+}
